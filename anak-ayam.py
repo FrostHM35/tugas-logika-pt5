@@ -2,19 +2,20 @@
 # NAMA ANGGOTA KELOMPOK 1
 nama_anggota = ["Syira Azahra", "Habbel Wildan Haqiqy", "Agra", "Nisha"]
 
-# untuk batas garis
-garis = 50
-
+# Input jumlah anak ayam nya
 ayam = int(input("Masukkan jumlah anak ayam : "))
 
+
+# untuk batas garis
+garis = 50
 print("-" * garis)
 print("Nama Anggota Kelompok 1".center(garis))
 
 # Menggunakan f-string (huruf 'f' di depan) agar variabel {i + 1} dan {nama_anggota[i]} bisa terbaca
 for i in range(len(nama_anggota)):
     print(f"{i + 1}. {nama_anggota[i]}")
-
 print("-" * garis)
+
 
 # Cetak baris pertama di luar perulangan
 print("TUGAS KE 2".center(garis))
