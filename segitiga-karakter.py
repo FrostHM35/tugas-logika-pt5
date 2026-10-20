@@ -35,4 +35,3 @@ for i in range(1, segitiga + 1):
     print()
 
 print("-" * garis)
-
