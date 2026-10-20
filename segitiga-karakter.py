@@ -36,4 +36,3 @@ for i in range(1, segitiga + 1):
 
 print("-" * garis)
 
-print("hello agra")
